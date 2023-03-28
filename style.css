@@ -1,0 +1,42 @@
+h1 { 
+color: blue;
+ font-size: xx-large;
+text-align: center;
+}
+
+
+p {transition-property: opacity, transform;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-optical-sizing: none;
+    text-align: center;
+    opacity: 1;
+    font-family: "Roboto variant0", Tofu;
+    line-height: initial;
+   font-size: x-large;
+    transition-duration: 350ms}
+
+a{ transition-property: opacity, transform;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-optical-sizing: none;
+    text-align: center;
+    opacity: 1;
+    font-family: "Roboto variant0", Tofu;
+    line-height: initial;
+    transition-duration: 350ms}
+
+h2 { color: black;
+    transition-property: opacity, transform;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-optical-sizing: none;
+    text-align: center;
+    opacity: 1;
+    font-family: "Roboto variant0", Tofu;
+    line-height: initial;
+    transition-duration: 350ms
+}
