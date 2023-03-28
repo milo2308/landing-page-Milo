@@ -1,7 +1,13 @@
+
 h1 { 
-color: blue;
+color :rgb(227, 231, 233);
+background-color: blue;
  font-size: xx-large;
 text-align: center;
+border-radius: 8px;
+padding: 10px;
+margin: 30px ;
+box-shadow: 15px 14px 4px 0px;
 }
 
 
@@ -17,16 +23,32 @@ p {transition-property: opacity, transform;
    font-size: x-large;
     transition-duration: 350ms}
 
-a{ transition-property: opacity, transform;
+#lienresulats{ transition-property: opacity, transform;
     font-weight: 400;
+    text-decoration: none;
     font-style: normal;
     font-stretch: normal;
     font-optical-sizing: none;
+   background-color:rgb(4, 4, 176);
+   color: aliceblue;
     text-align: center;
+    padding: 10px;
+    border-radius: 10px; 
     opacity: 1;
     font-family: "Roboto variant0", Tofu;
     line-height: initial;
-    transition-duration: 350ms}
+    transition-duration: 350ms;
+    transition: all 350ms ease;
+    margin: 0 auto;
+    display: block;
+    width: max-content;
+
+}
+
+#lienresulats:hover {
+    background-color: rgb(255, 255, 255);
+    color: blue
+}
 
 h2 { color: black;
     transition-property: opacity, transform;
@@ -39,4 +61,30 @@ h2 { color: black;
     font-family: "Roboto variant0", Tofu;
     line-height: initial;
     transition-duration: 350ms
+}
+
+div { 
+    width: 700px;
+    box-shadow: 10px 10px 50px ;
+    padding: 20px;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 20px;}
+
+ #lieninstagram {
+        width: 80px;
+    }
+    
+    #lienfacebook {
+        width: 80px;
+
+    }
+ul{
+    list-style-type: none;
+}
+#lienchampionnat {
+    color: black;
+}
+#liencoupe {
+    color: black;
 }
