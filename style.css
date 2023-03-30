@@ -88,3 +88,10 @@ ul{
 #liencoupe {
     color: black;
 }
+
+#photofond { 
+    background-image: url("https://jabiarritz.com/basket/wp-content/uploads/sites/6/2023/01/sm-1.jpg");
+    top: 0;
+    left: 0;
+    background-position: center;
+}
